@@ -21,7 +21,7 @@
 */
 
 .text-base-color {
-    color: #e62b1e !important;
+    color: #40BFF6 !important;
 }
 
 
@@ -74,16 +74,16 @@
     color: #e62b1e;
 }
 .btn.btn-outline-base-color {
-    border-color: #e62b1e;
-    color: #e62b1e;
+    border-color: #40BFF6;
+    color: #40BFF6;
 }
 .btn.btn-outline-base-color:hover,
 .btn.btn-outline-base-color:focus {
-    background-color: #e62b1e;
+    background-color: #40BFF6;
 }
 .btn.btn-outline-base-color.btn-hover-transparent:hover,
 .btn.btn-outline-base-color.btn-hover-transparent:focus {
-    color: #e62b1e;
+    color: #40BFF6;
 }
 
 

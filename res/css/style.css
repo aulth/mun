@@ -68,7 +68,10 @@
 /* Home BG Parallax */
 
 #home-bg-parallax > .bg-parallax {
-  background: url("../images/bg-parallax.jpg");
+  background: url("../images/parallax.png");
+}
+#parallax{
+  background: url("../images/parallax.png");
 }
 
 
@@ -115,6 +118,18 @@
   box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.03);
   top: -35px;
   z-index: 20;
+}
+.countdown-timer{
+  color:#ffffff;
+}
+.timer-item-box{
+  border-radius:20px;
+  width:90px;
+  height:90px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:rgba(0,0,0,0.5);
 }
 .countdown .clock {
   height: 70px;
@@ -202,10 +217,13 @@
 */
 
 #venue {
-  background-image: url("../images/bg-venue.jpg");
+  background-image: url("../images/venue.jpg");
   background-position: center bottom !important;
 }
 #venue-heading{
+  font-family: norwester;
+}
+.font-norwester{
   font-family: norwester;
 }
 #venue p, #venue a{
@@ -607,17 +625,16 @@
   padding-right: 2%;
 }
 .countdown-timer .value {
-  font-family: Roboto, sans-serif;
+  font-family: norwester;
   font-size: 36px;
   font-weight: 800;
-  color: white;
   align-self: center;
 }
 .countdown-timer .label {
-  font-family: Catamaran, sans-serif;
+  font-family:norwester;
   font-size: 16px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.75);
+  /* color: rgba(255, 255, 255, 1); */
   padding-top: 8px;
   align-self: center;
 }
