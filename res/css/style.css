@@ -34,6 +34,7 @@
   17. Responsive images
   18. Features box
   19. Media
+  20. Resources
 */
 
 
@@ -601,18 +602,7 @@
   display: flex;
   flex-direction: column;
 }
-#event-banner .row #banner-registration {
-  margin-left: auto;
-  margin-right: auto;
-}
-@media (min-width: 768px) {
-  #event-banner .row {
-    flex-direction: row;
-  }
-  #event-banner .row #banner-registration {
-    margin: auto;
-  }
-}
+
 
 
 
@@ -751,4 +741,10 @@
 
 #media {
   background: url("../images/media/bg.jpeg");
+}
+
+//Resources
+
+#resources-heading{
+  font-family: norwester;
 }
