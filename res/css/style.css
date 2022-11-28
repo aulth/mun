@@ -66,7 +66,7 @@
 /* Home BG Parallax */
 
 #home-bg-parallax > .bg-parallax {
-  background: url("../images/bg-parallax.jpg");
+  background: url("../images/mun-parallax.png");
 }
 
 
@@ -695,6 +695,8 @@
   height: 100%;
   margin: auto;
 }
+
+  
 
 
 
