@@ -1,12 +1,12 @@
-![TEDxJMI logo](res/images/logos/light.png)
+![MUN-JMI logo](https://munjmi.vercel.app/res/images/logos/light.png)
 
-[![Website status](https://img.shields.io/website-up-down-green-red/https/tedxjmi.netlify.com.svg?label=Website%20status&style=for-the-badge)](https://tedxjmi.netlify.com)
+[![Website status](https://img.shields.io/website-up-down-green-red/https/munjmi.vercel.app.svg?label=Website%20status&style=for-the-badge)](https://munjmi.vercel.app)
 
-> Event website for TEDxJMI 2017
+> Event website for MUN JMI
 
 ## Screenshot
 
-![screenshot-2018-1-16](https://user-images.githubusercontent.com/11466676/34989795-e0b351e2-fae9-11e7-95ea-d42b85d4b6cd.jpg)
+![MUN-JMI](https://res.cloudinary.com/mohdusman1/image/upload/v1671354798/xxbooxut3yhbzmixgtnl.png)
 
 ## License
 

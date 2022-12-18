@@ -328,8 +328,8 @@ class CardCarousel extends DraggingEvent {
 				leftPos = this.calcPos(x + xDist, scale2);
 
 			this.updateCards(this.cards[i], {
-				scale: scale,
-				leftPos: leftPos,
+				scale:scale,
+				leftPos:leftPos,
 			});
 		}
 	}
