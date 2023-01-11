@@ -241,18 +241,18 @@ class CardCarousel extends DraggingEvent {
 		let formula;
 
 		if (x <= 0) {
-			formula = 1 - (-1 / 5) * x;
+			formula = 1 - (-1 / 6) * x;
 
 			return formula;
 		} else if (x > 0) {
-			formula = 1 - (1 / 5) * x;
+			formula = 1 - (1 / 6) * x;
 
 			return formula;
 		}
 	}
 
 	calcScale(x) {
-		const formula = 1 - (1 / 5) * Math.pow(x, 2);
+		const formula = 1 - (1 / 6) * Math.pow(x, 2);
 
 		if (formula <= 0) {
 			return 0;
@@ -304,7 +304,7 @@ class CardCarousel extends DraggingEvent {
 
 		if (data != null) {
 			this.container.classList.remove("smooth-return");
-			xDist = data.x / 250;
+			xDist = data.x / 300;
 		} else {
 			this.container.classList.add("smooth-return");
 			xDist = 0;
